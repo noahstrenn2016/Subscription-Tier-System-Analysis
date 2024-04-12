@@ -1,4 +1,4 @@
-Selects each customer name with their total sales and groups them into a tier list for a new subscription-based tier system. Uses a case statment to create the new membership_level field and uses a join to join the two table together based off of the order_id.
+Selects each customer name with their total sales and groups them into a tier list for a new subscription-based tier system. Uses a case statement to create the new membership_level field and uses a join to join the two table together based off of the order_id.
 ```sql
 select distinct
 		a.customername,
