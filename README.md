@@ -1,7 +1,7 @@
 # Subscription-Tier-System-Analysis
 
 ## Overview
-A company with an online store wants to know how to incentivize better customer retention. In this analysis, I created a proposal for a subscription tier system in order to entice existing customers to keep coming back and spending more.
+A company with an online store wants to know how to increase customer retention. In this analysis, I created a proposal for a subscription tier system in order to incentivize existing customers to keep coming back and making more purchases.
 
 ## Technical skills used
 - SQL
