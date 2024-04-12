@@ -20,4 +20,5 @@ from
 group by 
 	a.customername
 order by 
-	sum(b.amount) desc) ```
+	sum(b.amount) desc);
+```
