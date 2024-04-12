@@ -1,3 +1,5 @@
+```sql
+
 --Selects each customer name with their total sales and groups them into a tier list for a new 
 --subscription based system.
 select distinct a.customername,
@@ -19,3 +21,4 @@ from list_of_orders a
 	on a.order_id = b.order_id --order_id in both tables are matching
 group by a.customername
 order by sum(b.amount) desc
+```
