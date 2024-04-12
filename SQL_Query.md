@@ -1,12 +1,11 @@
---Case statement for the new membership tier system based off total sales per customername 
-	--Platinum level (more than 5000 total sales)
-	--Gold level (between 2500 and 4999 total sales)
-	--Silver level (between 500 and 24999 total sales)
-	--Standard level (500 and less total sales)
+Selects each customer name with their total sales and groups them into a tier list for a new subscription-based tier system.
 
+Case statement for the new membership tier system based off total sales per customername:
+	- Platinum level (more than 5000 total sales)
+	- Gold level (between 2500 and 4999 total sales)
+	- Silver level (between 500 and 24999 total sales)
+	- Standard level (500 and less total sales)
 ```sql
---Selects each customer name with their total sales and groups them into a tier list for a new 
---subscription based system.
 select distinct
 		a.customername,
 		sum(b.amount) as total_sales,
