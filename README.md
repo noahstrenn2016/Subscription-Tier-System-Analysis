@@ -5,11 +5,12 @@ A company with an online store wants to know how to increase customer retention.
 
 ## Technical skills used
 - SQL
+- Excel
 - Tableau
 
 ## Data Analysis Process
 1. Define business problem to answer key questions for stakeholders
-2. Clean and extract relevant data to be used for analysis (SQL)
+2. Clean and extract relevant data to be used for analysis (SQL & Excel)
 3. Import data into Tableau to be used for visualizations
 4. Create dashboard and presentation for stakeholders and share insights
 
