@@ -10,7 +10,7 @@ select
 from
 	(select distinct a.customername,
 				sum(b.amount) as total_sales, 
-				count(a.order_id) as num_of_orders,
+				count(distinct(a.order_id)) as num_of_orders,
 				(case 
 					when sum(b.amount) >= 5000 then 'Platinum'
 					when sum(b.amount) >= 2500 and sum(b.amount) <= 4999 then 'Gold'
@@ -23,9 +23,10 @@ from
 group by 
 	a.customername
 order by 
-	sum(b.amount) desc)
+	count(distinct(a.order_id)) desc)
 group by 
 	membership_level
 order by 
 	avg_orders_per_customer desc;
+
 ```
