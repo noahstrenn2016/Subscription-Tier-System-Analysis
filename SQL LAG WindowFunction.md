@@ -1,4 +1,4 @@
-
+This SQL query pulls each customer name with their average number of days between their orders.
 
 
 ```sql
